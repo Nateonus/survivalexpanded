@@ -1,0 +1,4 @@
+This mod's source code is provided under a source available licence, and is not open-source.
+
+You are permitted to read and learn from the source material.
+You are not permitted to release any significantly unedited version of this code.
