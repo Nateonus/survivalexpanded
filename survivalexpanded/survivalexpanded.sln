@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "survivalexpanded", "survivalexpanded\survivalexpanded.csproj", "{5404CCB0-6F3F-404A-850B-0D3929CDA821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SurvivalExpanded", "survivalexpanded\SurvivalExpanded.csproj", "{5404CCB0-6F3F-404A-850B-0D3929CDA821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{6E4E4ACD-EA5A-4CD8-AF67-5799022B802C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{6E4E4ACD-EA5A-4CD8-AF67-5799022B802C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
