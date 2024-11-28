@@ -58,4 +58,18 @@
   </Content>
 </ItemGroup>
 
+<ItemGroup>
+  <Folder Include="assets\survivalexpanded\entities\" />
+  <Folder Include="assets\survivalexpanded\itemtypes\" />
+  <Folder Include="assets\survivalexpanded\blocktypes\" />
+  <Folder Include="Modules\ClayBreaking\" />
+  <Folder Include="Modules\SurvivalProgression\" />
+  <Folder Include="Modules\EntityEffects\" />
+  <Folder Include="Modules\HiddenNutrition\" />
+  <Folder Include="Modules\Misc\" />
+  <Folder Include="Modules\PlayerNeeds\" />
+  <Folder Include="Modules\EnhancedNutrition\" />
+  <Folder Include="Modules\BetterKnapping\" />
+</ItemGroup>
+
 </Project>

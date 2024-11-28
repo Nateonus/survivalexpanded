@@ -36,7 +36,7 @@ namespace CakeBuild
             : base(context)
         {
             BuildConfiguration = context.Argument("configuration", "Release");
-            SkipJsonValidation = context.Argument("skipJsonValidation", false);
+            SkipJsonValidation = context.Argument("skipJsonValidation", true);
             var modInfo = context.DeserializeJsonFromFile<ModInfo>($"../{ProjectName}/modinfo.json");
             Version = modInfo.Version;
             Name = modInfo.ModID;
