@@ -1,0 +1,38 @@
+[
+  {
+    "op": "remove",
+    "path": "/0/childDeposits/0/attributes/surfaceBlock",
+    "file": "game:worldgen/deposits/mineralore/quartz.json",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/0/childDeposits/0/attributes/surfaceBlockChance",
+    "file": "game:worldgen/deposits/mineralore/quartz.json",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/0/childDeposits/1/attributes/surfaceBlock",
+    "file": "game:worldgen/deposits/mineralore/quartz.json",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  },
+  {
+    "op": "remove",
+    "path": "/0/childDeposits/1/attributes/surfaceBlockChance",
+    "file": "game:worldgen/deposits/mineralore/quartz.json",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  }
+]

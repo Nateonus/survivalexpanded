@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vintagestory.API.Common;
+using Vintagestory.API.Datastructures;
+using Vintagestory.API.Server;
 
 namespace SurvivalExpanded.Modules.ToolPower
 {
@@ -16,7 +18,7 @@ namespace SurvivalExpanded.Modules.ToolPower
         {
             { 0, "game:tier_hands" },
             { 1, "game:tier_stone" },
-            { 1.5f, "survivalexpanded:tier_bone" },
+            { 1.5f, "survivalexpanded:tier_bone" }, 
             { 2, "game:tier_copper" },
             { 3, "survivalexpanded:tier_tinbronze" },
             { 3.25f, "survivalexpanded:tier_bismuthbronze" },
@@ -67,6 +69,5 @@ namespace SurvivalExpanded.Modules.ToolPower
         {
             return SEModuleCodes.ToolPower.Code();
         }
-
     }
 }

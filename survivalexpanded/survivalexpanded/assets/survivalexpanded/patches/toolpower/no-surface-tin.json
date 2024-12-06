@@ -1,0 +1,11 @@
+[
+  {
+    "op": "remove",
+    "path": "/0/attributes/surfaceBlock",
+    "file": "game:worldgen/deposits/metalore/galena.json",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  }
+]

@@ -29,13 +29,10 @@ namespace SurvivalExpanded.Modules.ToolPower
             if (customMiningTier == 0) customMiningTier = def;
         }
 
-
-
         public override void GetHeldItemInfo(ItemSlot inSlot, StringBuilder dsc, IWorldAccessor world, bool withDebugInfo)
         {
             dsc.Replace(Lang.Get("Tool Tier: {0}", collObj.ToolTier), Lang.Get("Tool Tier: {0}", customMiningTier));
             base.GetHeldItemInfo(inSlot, dsc, world, withDebugInfo);
         }
-
     }
 }

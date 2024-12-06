@@ -1,0 +1,33 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/se-CustomMiningTierByType",
+    "value": {
+      "ore-*-bismuthinite-*": 3,
+      "ore-*-hematite-*": 3.5,
+      "ore-*-limonite-*": 3.5,
+      "ore-*-magnetite-*": 3.5,
+      "ore-*-quartz_nativegold-*": 3.25,
+      "ore-*-quartz_nativesilver-*": 3.25
+    },
+    "file": "game:blocktypes/stone/ore-graded.json",
+    "side": "Server",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  },
+  {
+    "op": "addmerge",
+    "path": "/behaviors/0",
+    "value": {
+      "name": "se-CustomMiningTier"
+    },
+    "file": "game:blocktypes/stone/ore-graded.json",
+    "side": "Server",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  }
+]

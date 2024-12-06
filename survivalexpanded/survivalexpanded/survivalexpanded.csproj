@@ -53,6 +53,8 @@
   <Content Include="assets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
+  <None Remove="assets\survivalexpanded\patches\toolpower\no-surface-gold-silver.json" />
+  <None Remove="assets\survivalexpanded\patches\toolpower\no-surface-tin.json" />
   <Content Include="modinfo.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>

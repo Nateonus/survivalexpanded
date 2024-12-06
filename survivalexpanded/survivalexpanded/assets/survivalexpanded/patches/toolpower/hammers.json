@@ -1,0 +1,29 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/attributes/se-CustomMiningTierByType",
+    "value": {
+      "*-bismuthbronze": 3.25,
+      "*-blackbronze": 3.5
+    },
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  },
+  {
+    "op": "addmerge",
+    "path": "/behaviors/0",
+    "value": {
+      "name": "se-CustomMiningTier"
+    },
+    "file": "game:itemtypes/tool/hammer.json",
+    "side": "Server",
+    "condition": {
+      "when": "se-toolpower",
+      "isValue": true
+    }
+  }
+]
